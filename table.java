@@ -1,14 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg4sem;
-import java.util.Scanner;
-/**
- *
- * @author abhis
- */
 public class table 
 {
     public static void main(String[] args)
@@ -19,8 +8,7 @@ public class table
         
         for(int i=1;i<=10;i++)
         {
-            System.out.println(a+ " x " + i + " = " + 
-     (a * (i)));
+            System.out.println(a+ " x " + i + " = " + (a * (i)));
         }
     }
 }
